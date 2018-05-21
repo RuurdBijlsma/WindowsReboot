@@ -1,13 +1,13 @@
 {
-  "name": "rebooty",
+  "name": "windows-reboot",
   "version": "0.0.1",
-  "description": "Rebooty",
+  "description": "Windows reboot fixer",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "dist": "build"
   },
-  "repository": "https://github.com/ruurdbijlsma/rebooty",
+  "repository": "https://github.com/ruurdbijlsma/WindowsReboot",
   "homepage": "https://ruurdbijlsma.com",
   "keywords": [
     "Reboot"
@@ -26,8 +26,8 @@
     "electron-is-dev": "^0.1.2"
   },
   "build": {
-    "appId": "com.ruurdbijlsma.rebooty",
-    "productName": "Rebooty",
+    "appId": "com.ruurdbijlsma.windowsreboot",
+    "productName": "WindowsReboot",
     "win": {
       "target": "NSIS ",
       "icon": "res/img/icon.ico"

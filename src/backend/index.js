@@ -69,7 +69,7 @@ app.on('ready', async () => {
         },
         {role: "quit"},
     ]);
-    tray.setToolTip('Rebooty');
+    tray.setToolTip('Windows Reboot');
     tray.setContextMenu(contextMenu);
 
     mainWindow.on('close', () => {
