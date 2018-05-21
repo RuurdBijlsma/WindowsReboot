@@ -1,0 +1,36 @@
+{
+  "name": "rebooty",
+  "version": "0.0.1",
+  "description": "Rebooty",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "repository": "https://github.com/ruurdbijlsma/rebooty",
+  "homepage": "https://ruurdbijlsma.com",
+  "keywords": [
+    "Reboot"
+  ],
+  "author": {
+    "name": "Ruurd Bijlsma",
+    "email": "mail@ruurdbijlsma.com"
+  },
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-builder": "^19.55.3"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "electron-is-dev": "^0.1.2"
+  },
+  "build": {
+    "appId": "com.ruurdbijlsma.rebooty",
+    "productName": "Rebooty",
+    "win": {
+      "target": "NSIS ",
+      "icon": "res/img/icon.ico"
+    }
+  }
+}
